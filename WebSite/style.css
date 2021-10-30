@@ -241,8 +241,133 @@ footer p{
 .footer_policy li:last-child{
 	margin-right: 0rem;
 }
+
+/* A                                             A */
+/* | Made by Darko Goluža(315227) - Landing Page | */
+/* | Made by Darko Goluža(315227) - Landing Page | */
+/* v                                             v */
+
+
+table.greyGridTable {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+  }
+  table.greyGridTable td, table.greyGridTable th {
+	border: 1px solid #05050557;
+	padding: 7px 10px;
+  }
+  table.greyGridTable tbody td {
+	font-size: 13px;
+  }
+  table.greyGridTable td {
+	background: #323232;
+	font-size: 12px;
+	color: white;
+  }
+
+  table.greyGridTable thead {
+	background: #585858;
+	border-bottom: 4px solid #333333;
+  }
+
+  table.greyGridTable .week{
+	color: #272727;
+  }
+
+  table.greyGridTable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #a8b9f7;
+	text-align: center;
+	border-left: 2px solid #333333;
+  }
+
+  table.greyGridTable .sdj{
+	  background: #b7c9ff;
+	  color: #323232;
+	  border: none;
+  }
+
+  table.greyGridTable .dma{
+	background: #f58b8b;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .sep{
+	background: #effaa8;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .rdw{
+	background: #8aa7ff;
+	color: #323232;
+	border: none;
+}
+
+table.greyGridTable .ws{
+	background: #f148c4;
+	color: #323232;
+	border: none;
+}
+
+
+  table.greyGridTable thead th:first-child {
+	border-left: none;
+  }
+  
+  table.greyGridTable tfoot td {
+	font-size: 14px;
+  }
+
+  .landing_hero h1{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 117px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+	margin-top: 5rem;
+}
+
+.landing_hero h4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 37px;
+	text-align: center;
 	
-@-webkit-keyframes blinking {
+	margin: auto;
+
+	color: #FFFFFF;
+
+	margin-top: 1rem;
+}
+
+.landing_hero h5{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 37px;
+	text-align: center;
+
+	width: 900px;
+	margin: auto;
+
+	color: #FFFFFF;
+
+	margin-top: 1rem;
+}
+
+.paddingBottom{
+	padding-bottom: 4rem !important;
+}@-webkit-keyframes blinking {
 	from {
 		transform: translate(-50%, 0px);
 		opacity: 100%;
@@ -294,6 +419,18 @@ footer p{
 footer p{
 	font-size: 16px;
 }
+
+	table.greyGridTable tbody td {
+	font-size: 10px;
+  }
+  table.greyGridTable td {
+	font-size: 8px;
+  }
+
+  table.greyGridTable thead th {
+	font-size: 12px;
+  }
+
   }
 
   @media only screen and (max-width: 1000px) {
@@ -331,7 +468,6 @@ footer p{
 		margin-right: 0rem;
 	}
   }
-
 
 @media only screen and (max-width: 900px) {
 	.via_logo {
@@ -371,6 +507,17 @@ footer p{
 	.footer_links li:last-child{
 		margin-right: 0rem;
 	}
+
+	table.greyGridTable tbody td {
+		font-size: 9px;
+	  }
+	  table.greyGridTable td {
+		font-size: 7px;
+	  }
+	
+	  table.greyGridTable thead th {
+		font-size: 10px;
+	  }
   }
 /* A                                             A */
 /* | Made by Darko Goluža(315227) - Landing Page | */
