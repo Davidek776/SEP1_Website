@@ -180,6 +180,7 @@ body {
 .course #section1,
 .course #section2 {
 	height: auto;
+	min-height: fit-content;
 }
 
 .main_content {
@@ -196,12 +197,13 @@ body {
 	line-height: 2rem;
 	display: inline;
 	/* margin-top: .5em; */
-	margin-left: 1.5em;
+	margin-left: 1.5em !important;
 }
 
 .main_content ul {
 	margin-left: 1.5em;
 	padding-left: 1.5em;
+	margin-bottom: 0;
 }
 
 .main_content li{
@@ -215,6 +217,81 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+
+.sep #section1 {
+	background-image: 
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/sep_1.jpg');
+}
+
+.sep #section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/sep_2.jpg');
+}
+
+.sdj #section1 {
+	background-image: 
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/sdj_1.jpg');
+}
+
+.sdj #section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/sdj_2.jpg');
+}
+
+.dma #section1 {
+	background-image: 
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/dma_1.jpg');
+}
+
+.dma #section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/dma_2.jpg');
+}
+
+.rwd #section1 {
+	background-image: 
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/rwd_1.jpg');
+}
+
+.rwd #section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url('./ArtWork/courses/rwd_2.jpg');
+}
+
+footer a:hover,
+.nav-link:hover {
+	color: #FF9505 !important;
+	transition: .3s;
+}
+
+
+.selected {
+	padding-bottom: .15em;
+	/* border-bottom: 1px solid #FF9505; */
+	color: #FF9505 !important;
+	position: relative;
+}
+
+.selected::after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 50%;
+	bottom: -2px;
+	width: 5px;
+	height: 5px;
+	background: #FF9505;
+	border-radius: 50%;
+}
+
 
 footer{
 	width: 100%;
