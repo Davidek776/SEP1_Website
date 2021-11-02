@@ -193,7 +193,9 @@ body {
 }
 
 .main_content .title_sm {
+	font-size: 1.5rem;
 	margin-top: 1em;
+	font-weight: bold;
 	display: block;
 }
 
@@ -485,7 +487,8 @@ table.greyGridTable .ws{
 
 .paddingBottom{
 	padding-bottom: 4rem !important;
-}@-webkit-keyframes blinking {
+}
+@-webkit-keyframes blinking {
 	from {
 		transform: translate(-50%, 0px);
 		opacity: 100%;
@@ -610,6 +613,10 @@ footer p{
 		width: 300px;
 		font-size: 12px !important;
 		text-align: left;
+	}
+
+	.main_content .title_sm {
+		font-size: 1.1rem;
 	}
 
 	.schedule_btn {
