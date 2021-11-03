@@ -343,6 +343,9 @@ footer ul {
 
   margin: 0px;
   padding: 0px;
+
+  align-items: center;
+
 }
 
 footer ul li {
@@ -677,6 +680,52 @@ table.greyGridTable tfoot td {
     font-size: 10px;
   }
 }
+@media only screen and (max-width: 800px) {
+  footer ul li a,
+  footer p {
+    font-size: 8px;
+  }
+
+  .landing-hero-h1 {
+    font-size: 32px;
+    width: auto;
+  }
+
+  .landing-hero-h4 {
+    font-size: 12px;
+    line-height: 20px;
+    width: auto;
+
+  }
+
+  #section2 h4 {
+    width: auto;
+    font-size: 21px;
+  }
+
+  #section2 p {
+    width: auto;
+  }
+
+  table.greyGridTable tbody td {
+    font-size: 8px;
+  }
+  table.greyGridTable td {
+    font-size: 8px;
+  }
+
+  table.greyGridTable thead th {
+    font-size: 8px;
+  }
+  table.greyGridTable td,
+  table.greyGridTable th {
+    padding: 7px  4px;
+  }
+
+  .landing_hero h1{
+    font-size: 42px;
+  }
+}
 /* A                                             A */
 /* | Made by Darko Goluža(315227) - Landing Page | */
 
@@ -812,6 +861,8 @@ ul {
 }
 
 /* About VIA page made by Dávid Kocúr(315251) */
+
+/* About VIA page made by Mateusz Zbysław(315192) */
 .arrowwhite{
 	display: block;
 
