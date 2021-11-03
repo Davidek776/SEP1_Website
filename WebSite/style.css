@@ -691,7 +691,7 @@ table.greyGridTable tfoot td {
       rgba(31, 30, 30, 0.96) 66.15%,
       #1a1919 100%
     ),
-    url("/WebSite/ArtWork/via_people.jpg");
+    url("./ArtWork/via_people.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -753,7 +753,7 @@ ul {
       rgba(26, 25, 25, 0.92) 51.25%,
       #1a1919 100%
     ),
-    url("/WebSite/ArtWork/via_building.jpg");
+    url("./ArtWork/via_building.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
