@@ -197,13 +197,14 @@ body {
 	margin-top: 1em;
 	font-weight: bold;
 	display: block;
+	margin-right: 1.5em !important;
 }
 
 .main_content p {
 	line-height: 2rem;
 	display: inline;
 	/* margin-top: .5em; */
-	margin-left: 1.5em !important;
+	
 }
 
 .main_content ul {
@@ -659,3 +660,106 @@ footer p{
   }
 /* A                                             A */
 /* | Made by Darko Goluža(315227) - Landing Page | */
+.arrowwhite{
+	display: block;
+
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translate(-50%);
+
+	width: 140px;
+	height: 140px;
+
+	background-image: url("./ArtWork/arrow_white.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-animation: blinking 1.5s infinite alternate;
+	        animation: blinking 1.5s infinite alternate;
+}
+.contact #section1 {
+	background-image: 
+		linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url("./ArtWork/via_people.jpg");
+}
+
+.contact #section2 {
+	background-image: 
+		linear-gradient(0deg, rgba(30, 30, 30, 0.9) 0%, #1A1919 100%),
+		url("./ArtWork/via_building.jpg");
+}
+.mateuszIMG{
+	
+background-image: url("./ArtWork/mateuszFinal.png");
+display: block;
+
+
+background-size: contain;
+	
+width: 280px;
+height: 280px;
+	float: left;
+}
+.darkoIMG{
+	
+	background-image: url("./ArtWork/darkoFinal.png");
+	display: block;
+	
+	
+	background-size: contain;
+		
+	width: 280px;
+	height: 284px;
+		float: left;
+	
+}
+.antonIMG{
+	
+		background-image: url("./ArtWork/antonFinal.png");
+		display: block;
+		
+		
+		background-size: contain;
+			background-repeat: no-repeat;
+			width: 280px;
+			height: 280px;
+			float: left;
+}	
+.davidIMG{
+	
+	background-image: url("./ArtWork/davidFinal.png");
+	display: block;
+	
+	
+	background-size: contain;
+		
+	width: 280px;
+			height: 280px;
+		float: left;
+}
+.darko_sm{
+	font-size: 1.5rem;
+	margin-top: 1em;
+	font-weight: bold;
+	display: block;
+	text-align: center !important;
+	text-align-last: center;
+}
+h3 {
+	font-size: 1.5rem;
+	margin-top: 1em;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	
+}
+h7 {
+	
+	margin-top: 1em;
+	
+	display: block;
+	text-align:unset !important;
+	letter-spacing: 00.035em;
+}
+
