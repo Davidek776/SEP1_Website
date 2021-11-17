@@ -235,6 +235,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.line_container #spacing {
+  margin-top: 20vh;
+}
 
 .sep #section1 {
   background-image: linear-gradient(
@@ -870,6 +873,11 @@ ul {
 /* About VIA page made by Dávid Kocúr(315251) */
 
 /* About VIA page made by Mateusz Zbysław(315192) */
+
+#br1 {
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
 .arrowwhite{
 	display: block;
 
@@ -877,7 +885,7 @@ ul {
 	bottom: 5px;
 	left: 50%;
 	transform: translate(-50%);
-
+  margin-top: 10vh;
 	width: 140px;
 	height: 140px;
 
