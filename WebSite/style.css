@@ -121,7 +121,7 @@ body {
 
   color: #ffffff;
 
-  width: 1100px;
+  width: 75%;
   margin: auto;
 
   margin-top: 4rem;
@@ -141,7 +141,7 @@ body {
 
   color: #ffffff;
 
-  width: 850px;
+  width: 65%;
   margin: auto;
 
   padding-top: 2rem;
@@ -512,7 +512,7 @@ table.greyGridTable tfoot td {
   line-height: 37px;
   text-align: center;
 
-  width: 900px;
+  width: 70%;
   margin: auto;
 
   color: #ffffff;
@@ -561,13 +561,9 @@ table.greyGridTable tfoot td {
   }
 
   #section2 h4 {
-    width: 550px;
     font-size: 21px;
   }
 
-  #section2 p {
-    width: 850px;
-  }
   footer ul li a,
   footer p {
     font-size: 16px;
@@ -608,10 +604,6 @@ table.greyGridTable tfoot td {
     text-align: left;
   }
 
-  #section2 p {
-    width: 550px;
-  }
-
   footer ul li a,
   footer p {
     font-size: 14px;
@@ -635,12 +627,10 @@ table.greyGridTable tfoot td {
   }
 
   #section2 h4 {
-    width: 400px;
     font-size: 14px;
   }
 
   #section2 p {
-    width: 300px;
     font-size: 12px !important;
     text-align: left;
   }
@@ -972,6 +962,9 @@ h7 {
 	text-align:unset !important;
 	letter-spacing: 00.035em;
 }
+
+/* | Made by Darko Goluža(315227) - Carousel | */
+/* v                                         v */
 
 .carousel-item {
   height: calc(100vh - 60px);
