@@ -345,7 +345,6 @@ footer ul {
   padding: 0px;
 
   align-items: center;
-
 }
 
 footer ul li {
@@ -964,4 +963,37 @@ h7 {
 	display: block;
 	text-align:unset !important;
 	letter-spacing: 00.035em;
+}
+
+.carousel-item {
+  height: calc(100vh - 60px);
+  background: #777;
+  color: white;
+  position: relative;
+}
+
+.container-carousel  {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.carousel-img1 {
+  background-image: url("./ArtWork/VIA-2.jpg");
+}
+
+.carousel-img2 {
+  background-image: url("./ArtWork/VIA-4.jpg");
+}
+
+.carousel-img3{
+  background-image: url("./ArtWork/viajp-3.jpg");
+}
+
+.carousel-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
