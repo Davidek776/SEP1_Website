@@ -201,6 +201,7 @@ body {
   margin-top: 1em;
   font-weight: bold;
   display: block;
+  text-align: left;
 }
 
 .main_content p {
@@ -208,6 +209,13 @@ body {
   display: inline;
   /* margin-top: .5em; */
   margin-left: 1.5em !important;
+}
+
+.main_content .description {
+  text-align: left !important;
+  display: block;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .main_content ul {
