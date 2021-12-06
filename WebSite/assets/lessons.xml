@@ -5,6 +5,7 @@
   <className>X</className>
   <courseName>SEP</courseName>
   <teacherId>MWA</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -264,12 +265,12 @@
 </Student>
 </StudentList>
 </Lesson>
-
 <Lesson>
   <Course>
   <className>X</className>
   <courseName>SDJ</courseName>
   <teacherId>ALHE</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -544,6 +545,7 @@
   <className>X</className>
   <courseName>DMA</courseName>
   <teacherId>RIB</teacherId>
+  <semester>1</semester>
   <ects>5</ects>
 </Course>
   <Room>
@@ -808,6 +810,7 @@
   <className>X</className>
   <courseName>SDJ</courseName>
   <teacherId>ALHE</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -1082,6 +1085,7 @@
   <className>X</className>
   <courseName>SEP</courseName>
   <teacherId>MWA</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -1346,6 +1350,7 @@
   <className>X</className>
   <courseName>SDJ</courseName>
   <teacherId>ALHE</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -1620,6 +1625,7 @@
   <className>X</className>
   <courseName>RWD</courseName>
   <teacherId>KASR</teacherId>
+  <semester>1</semester>
   <ects>5</ects>
 </Course>
   <Room>
@@ -1884,6 +1890,7 @@
   <className>X</className>
   <courseName>RWD</courseName>
   <teacherId>KASR</teacherId>
+  <semester>1</semester>
   <ects>5</ects>
 </Course>
   <Room>
@@ -2148,6 +2155,7 @@
   <className>X</className>
   <courseName>SEP</courseName>
   <teacherId>MWA</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -2412,6 +2420,7 @@
   <className>X</className>
   <courseName>SDJ</courseName>
   <teacherId>ALHE</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -2686,6 +2695,7 @@
   <className>X</className>
   <courseName>SEP</courseName>
   <teacherId>MWA</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -2950,6 +2960,7 @@
   <className>X</className>
   <courseName>SEP</courseName>
   <teacherId>MWA</teacherId>
+  <semester>1</semester>
   <ects>10</ects>
 </Course>
   <Room>
@@ -3214,6 +3225,7 @@
   <className>X</className>
   <courseName>RWD</courseName>
   <teacherId>KASR</teacherId>
+  <semester>1</semester>
   <ects>5</ects>
 </Course>
   <Room>
@@ -3478,6 +3490,7 @@
   <className>X</className>
   <courseName>RWD</courseName>
   <teacherId>KASR</teacherId>
+  <semester>1</semester>
   <ects>5</ects>
 </Course>
   <Room>

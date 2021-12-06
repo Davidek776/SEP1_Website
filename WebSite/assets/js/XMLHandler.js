@@ -29,7 +29,7 @@ export default class XMLHandler {
   }
 
   getClassName(lesson) {
-    return lesson.getElementsByTagName('courseName')[0].innerHTML + lesson.getElementsByTagName('className')[0].innerHTML
+    return lesson.getElementsByTagName('courseName')[0].innerHTML + lesson.getElementsByTagName('semester')[0].innerHTML + lesson.getElementsByTagName('className')[0].innerHTML
   }
 
   getRoom(lesson) {
