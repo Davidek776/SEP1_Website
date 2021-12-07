@@ -11,7 +11,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -22,6 +22,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>8</hour>
+  <minutes>20</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>15</day>
@@ -276,7 +280,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -287,6 +291,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>15</day>
@@ -551,7 +559,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -562,6 +570,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>8</hour>
+  <minutes>20</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>16</day>
@@ -816,7 +828,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -827,6 +839,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>16</day>
@@ -1091,7 +1107,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -1102,6 +1118,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>8</hour>
+  <minutes>20</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>17</day>
@@ -1356,7 +1376,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -1367,6 +1387,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>8</hour>
+  <minutes>20</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>18</day>
@@ -1631,7 +1655,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -1642,6 +1666,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>18</day>
@@ -1896,7 +1924,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -1907,6 +1935,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>10</hour>
+  <minutes>15</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>19</day>
@@ -2161,7 +2193,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -2172,6 +2204,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>8</hour>
+  <minutes>20</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>22</day>
@@ -2426,7 +2462,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -2437,6 +2473,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>22</day>
@@ -2701,7 +2741,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -2712,6 +2752,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>23</day>
@@ -2966,7 +3010,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -2977,6 +3021,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>8</hour>
+  <minutes>20</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>24</day>
@@ -3231,7 +3279,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -3242,6 +3290,10 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
   <day>25</day>
@@ -3496,7 +3548,7 @@
   <Room>
   <block>C</block>
   <number>15</number>
-  <floor>0</floor>
+  <floor>05</floor>
   <isModular>false</isModular>
   <capacity>45</capacity>
 </Room>
@@ -3507,10 +3559,14 @@
 </Time>
   </StartTime>
   <EndTime>
+    <Time>
+  <hour>12</hour>
+  <minutes>45</minutes>
+</Time>
   </EndTime>
   <Date>
-  <day>26</day>
-  <month>11</month>
+  <day>7</day>
+  <month>12</month>
   <year>2021</year>
 </Date>
   <StudentList>

@@ -32,35 +32,62 @@ body {
 /*Schedule*/
 
 .schedule {
-  width: 80%;
+  width: 100%;
   display: flex;
 }
 
+.glider-contain {
+  width: 95%;
+}
+
 .schedule .SEP {
-  background: #effaa8;
-  border: 2px solid #b9c568;
+  background: #e5ebac;
+  border: 2px solid #80883d;
 }
 .schedule .DMA {
-  background: #b7c9ff;
-  border: 2px solid #8195d3;
+  background: #dacaf6;
+  border: 2px solid #866994;
 }
 .schedule .SDJ {
-  background: #f58b8b;
-  border: 2px solid #c05f5f;
+  background: #d4f6f7;
+  border: 2px solid #50939a;
 }
 .schedule .RWD {
-  background: #8aa7ff;
-  border: 2px solid #5772c0;
+  background: #aec5f1;
+  border: 2px solid #408ab4;
+}
+
+.schedule .today {
+  border: 4px solid #e8fc1c;
+}
+
+.glider-next, .glider-prev {
+  color: #fff;
+  top: 40%;
+}
+
+.glide__slide {
+  flex-shrink: unset !important;
 }
 
 .schedule .cell {
   display: flex;
   flex-wrap: wrap;
   min-width: 200px;
-  height: 200px;
+  height: 250px;
   padding: 1em;
   margin: 1em;
   border-radius: 10px;
+}
+
+.glider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.glider {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .cell .item {
