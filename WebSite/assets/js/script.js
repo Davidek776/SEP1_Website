@@ -1,5 +1,6 @@
 import XMLHandler from './XMLHandler.js'
 import Table from './Table.js'
+import Lesson from './Lesson.js'
 
 $.ajax({
   type: "GET",
@@ -11,13 +12,12 @@ $.ajax({
 })
 
 function init(xml) {
-  const handler = new XMLHandler(xml)
-  handler.showData()
-  
-  const table = new Table($('.schedule')[0])
-  
+  const handler = new XMLHandler(xml, Lesson)
+  const table = new Table($('.schedule')[0], Lesson)
+
+  table.lessons = handler.getLessons()
   
   table.generateTable()
-  table.highlightToday()
+  handler.showData()
 }
 
