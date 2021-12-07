@@ -640,7 +640,7 @@ table.greyGridTable tfoot td {
   .via_logo {
     width: 300px;
   }
-
+  
   .landing-hero-h1 {
     font-size: 42px;
   }
@@ -657,6 +657,9 @@ table.greyGridTable tfoot td {
   footer p {
     font-size: 16px;
   }
+  header ul li p{
+    font-size: 12px !important;
+  }
 
   table.greyGridTable tbody td {
     font-size: 10px;
@@ -672,13 +675,24 @@ table.greyGridTable tfoot td {
   .main_content {
     font-size: 0.9rem;
   }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
   .via_logo {
-    width: 225px;
+    width: 200px;
+    margin: 0%;
   }
-
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+  .schedule_btn {
+    font-size: 0.8rem;
+    justify-content: center;
+    margin: auto;
+  }
   .line {
     display: none !important;
   }
@@ -725,11 +739,13 @@ table.greyGridTable tfoot td {
   }
 
   .main_content .title_sm {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .schedule_btn {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    justify-content: center;
+    margin: auto;
   }
 
   footer {
