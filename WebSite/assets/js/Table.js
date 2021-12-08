@@ -1,17 +1,16 @@
 export default class Table {
 
-  constructor( table, Lesson ) {
-		this.table = table
+  constructor( xml, Lesson ) {
+    this.xml = xml
+    this.table = $('.schedule')[0]
     this.Lesson = Lesson
-    this.lessons
+    this.lessons = this.xml.children[0].children
   }
 
   generateTable() {
-    let firstLesson = new this.Lesson(this.lessons[0])
-    let lastLesson = new this.Lesson(this.lessons[this.lessons.length - 1])
-    let i = 0
+    const firstLesson = new this.Lesson(this.lessons[0])
+    const lastLesson = new this.Lesson(this.lessons[this.lessons.length - 1])
     let firstDay
-
 
     //looping throught weeks, creating days in html
     for(let week = firstLesson.getWeek(); week <= lastLesson.getWeek(); week++) {
@@ -105,7 +104,7 @@ export default class Table {
   }
 
   highlightToday() {
-    console.log($(`[data-date="${this.getToday()}"]`)[0].classList.add('today'))
+    $(`[data-date="${this.getToday()}"]`)[0].classList.add('today')
   }
 
 }
