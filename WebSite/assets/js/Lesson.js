@@ -19,6 +19,14 @@ export default class Lesson {
     return date.getDay()
   }
 
+  getMonth() {
+    return this.getDate().split('\.')[1] - 1
+  }
+  
+  getYear() {
+    return this.getDate().split('\.')[2]
+  }
+
   getClassName() {
     return this.getCourse(this.lesson) + this.lesson.getElementsByTagName('semester')[0].innerHTML + this.lesson.getElementsByTagName('className')[0].innerHTML
   }
@@ -29,7 +37,7 @@ export default class Lesson {
 
   getTime(startOrEnd) {
     const time = this.lesson.getElementsByTagName(startOrEnd)[0]
-    console.log(time.getElementsByTagName('minutes')[0].innerHTML == 0)
+    
     return time.getElementsByTagName('hour')[0].innerHTML + ':' + ((time.getElementsByTagName('minutes')[0].innerHTML == 0) ? '00' : time.getElementsByTagName('minutes')[0].innerHTML)
   }
 

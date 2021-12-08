@@ -18,6 +18,5 @@ function init(xml) {
   table.lessons = handler.getLessons()
   
   table.generateTable()
-  handler.showData()
 }
 
