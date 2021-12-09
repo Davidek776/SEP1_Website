@@ -29,8 +29,9 @@ function getData(fileName) {
 function init(xml) {
   const table = new Table(xml, Lesson)
 
-  if (table.glider != null ) table.destroyGlider()
-
+  if ($('.glider-contain').length != 0 )
+    table.destroyGlider()
+  
   table.generateTable()
 }
 

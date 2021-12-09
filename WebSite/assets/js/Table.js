@@ -76,7 +76,7 @@ export default class Table {
   }
 
   destroyGlider() {
-    $('.glider-contain')[0].remove()
+    $('.glider-contain').remove()
   }
   
   /**
@@ -97,10 +97,12 @@ export default class Table {
         next: '.glider-next'
       }
     })
+
+    console.log(this.glider)
     
     //changing week number
     document.querySelector('.glider').addEventListener('glider-slide-visible', function () {
-      $('#weekNo')[0].innerHTML = this.querySelector('.active').getAttribute('data-week')
+      $('#weekNo')[0].innerHTML = $('.active').data('week')
     })
   }
 
