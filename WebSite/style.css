@@ -62,8 +62,8 @@ body {
   top: 40%;
 }
 
-.glide__slide {
-  flex-shrink: unset !important;
+.glider-track {
+  height: auto;
 }
 
 .week {
@@ -92,6 +92,7 @@ body {
   flex-wrap: wrap;
   width: 200px;
   /* height: 250px; */
+  min-height: 194px;
   padding: 1em;
   margin: .5em;
   border-radius: 10px;
@@ -820,6 +821,20 @@ table.greyGridTable tfoot td {
   }
 }
 @media only screen and (max-width: 800px) {
+
+  .schedule .week {
+    height: fit-content !important;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .schedule .day {
+    margin-bottom: 3.15em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
   footer ul li a,
   footer p {
     font-size: 8px;

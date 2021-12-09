@@ -92,13 +92,12 @@ export default class Table {
       slidesToScroll: 1,
       slidesToShow: 1,
       draggable: true,
+      scrollLock: true,
       arrows: {
         prev: '.glider-prev',
         next: '.glider-next'
       }
     })
-
-    console.log(this.glider)
     
     //changing week number
     document.querySelector('.glider').addEventListener('glider-slide-visible', function () {
