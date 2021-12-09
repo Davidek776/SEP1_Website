@@ -1,18 +1,19 @@
 import Table from './Table.js'
 import Lesson from './Lesson.js'
 
-const table = new Table(null, Lesson)
 
 getData('lessonsX.xml')
 
 $('#classSelect').on('change', function (e) {
   const option = this.options[this.selectedIndex].value
   const fileName = 'lessons' + option + '.xml'
-
+  
   $('.schedule')[0].innerHTML = ''
 
   getData(fileName)
 })
+
+
 
 function getData(fileName) {
   $.ajax({
@@ -25,14 +26,11 @@ function getData(fileName) {
   })
 }
 
-
 function init(xml) {
-  table.xml = xml
+  const table = new Table(xml, Lesson)
 
-  if (table.glider != null ) {
-    console.log('a')
-    table.destroyGlider()
-  }
+  if (table.glider != null ) table.destroyGlider()
+
   table.generateTable()
 }
 

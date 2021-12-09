@@ -3,7 +3,7 @@ export default class Table {
   constructor( xml, Lesson ) {
     this.xml = xml
     this.Lesson = Lesson
-    this.lessons
+    this.lessons = this.xml.children[0].children
     this.glider
   }
 
@@ -11,8 +11,6 @@ export default class Table {
    * Generate nodes and add them to html
    */
   generateTable() {
-    this.lessons = this.xml.children[0].children
-    
     const firstLesson = new this.Lesson(this.lessons[0])
     const lastLesson = new this.Lesson(this.lessons[this.lessons.length - 1])
     let firstDay
@@ -146,10 +144,10 @@ export default class Table {
   }
   
   /**
-   * G
+   * Calculate first day date of week from week number and year
    * @param {*} w 
    * @param {*} y 
-   * @returns 
+   * @returns Date
    */
   getDateOfWeek(w, y) {
     let date = new Date(y, 0, (1 + w * 7))
