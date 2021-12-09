@@ -73,6 +73,14 @@ body {
   padding-top: 2em;
 }
 
+#classSelect {
+  font-size: 1.3rem;
+  float: right;
+  position: relative;
+  margin-right: 5rem;
+  z-index: 10;
+}
+
 /* .day {
   width: 200px;
   height: 250px;
