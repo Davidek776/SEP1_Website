@@ -1,18 +1,16 @@
 import Table from './Table.js'
 import Lesson from './Lesson.js'
 
-
-getData('lessonsX.xml')
+getData('lessonsZ.xml')
 
 $('#classSelect').on('change', function (e) {
   const option = this.options[this.selectedIndex].value
   const fileName = 'lessons' + option + '.xml'
-  
+
   $('.schedule')[0].innerHTML = ''
 
   getData(fileName)
 })
-
 
 
 function getData(fileName) {

@@ -63,14 +63,18 @@ export default class Lesson {
     const [day, month, year] = this.getDate().split('\.');
     const date = new Date(year, month - 1, day);
   
-    //find the year of the current date  
-     const oneJan =  new Date(date.getFullYear(), 0, 1);   
+    const onejan = new Date(date.getFullYear(), 0, 1);
+    return Math.ceil((((date - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+
+    return (date).getWeek();
+    // //find the year of the current date  
+    //  const oneJan =  new Date(date.getFullYear(), 0, 1);   
   
-     // calculating number of days in given year before a given date   
-     const numberOfDays =  Math.floor((date - oneJan) / (24 * 60 * 60 * 1000));   
+    //  // calculating number of days in given year before a given date   
+    //  const numberOfDays =  Math.floor((date - oneJan) / (24 * 60 * 60 * 1000));   
   
-     // adding 1 since to current date and returns value starting from 0   
-     return Math.ceil(( date.getDay() + 1 + numberOfDays) / 7);    
+    //  // adding 1 since to current date and returns value starting from 0   
+    //  return Math.ceil(( date.getDay() + 1 + numberOfDays) / 7);    
   }
   
   /**

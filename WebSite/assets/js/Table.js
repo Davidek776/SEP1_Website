@@ -25,12 +25,10 @@ export default class Table {
 
     $('#classSelect').after($($.parseHTML(node))[0])
 
-
-
     //looping throught weeks, creating days in html
     for(let week = firstLesson.getWeek(); week <= lastLesson.getWeek(); week++) {
 
-      firstDay = this.getDateOfWeek(week, firstLesson.getYear())
+      firstDay = this.getDateOfWeek(week - 1, firstLesson.getYear())
 
       $('.schedule')[0].innerHTML += 
       `<div class="week" data-week="${week}">
@@ -58,7 +56,6 @@ export default class Table {
       node = $(`[data-date="${lesson.getDate()}"]`)[0]
     
       str += `<div class="lesson ${lesson.getCourse()}">`
-      // str += '<span class="date item">' + lesson.getDate() + '</span>'
       str += '<span class="item">' + lesson.getClassName()
       str += '-' + lesson.getRoom() + '</span>'
       str += '<span class="item">' + lesson.getTime('StartTime') + ' - ' + lesson.getTime('EndTime') + '</span>'
