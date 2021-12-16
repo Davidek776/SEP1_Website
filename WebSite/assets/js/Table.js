@@ -109,7 +109,8 @@ export default class Table {
     //scroll to current week
     const firstLesson = new this.Lesson(this.lessons[0])
     
-    this.glider.scrollItem( ($(`[data-date="${this.getToday()}"]`).parent().data('week') - firstLesson.getWeek()) * 5)
+    if ($(`[data-date="${this.getToday()}"]`).length)
+      this.glider.scrollItem( ($(`[data-date="${this.getToday()}"]`).parent().data('week') - firstLesson.getWeek()) * 5)
   }
   
   /**
@@ -157,7 +158,8 @@ export default class Table {
    * Highlighting element which represents current day
    */
   highlightToday() {
-    $(`[data-date="${this.getToday()}"]`)[0].classList.add('today')
+    if ($(`[data-date="${this.getToday()}"]`).length)
+      $(`[data-date="${this.getToday()}"]`)[0].classList.add('today')
   }
   
 }
